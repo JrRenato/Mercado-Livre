@@ -1,8 +1,8 @@
 name: mercado_livre
-description: A new Flutter package project.
-version: 0.0.1
-author:
-homepage:
+description: SDK para controlar API Mercado Livre
+version: 0.0.4 
+author: Renato Junior <renato.junior17@hotmail.com>
+homepage: https://github.com/JrRenato/Mercado-Livre
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -10,7 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  mercadopago_sdk: ^1.0.2
   http: ^0.12.0+2
 
 

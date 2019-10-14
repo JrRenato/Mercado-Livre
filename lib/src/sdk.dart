@@ -38,8 +38,8 @@ class MP {
   /// return Future<Map<String, dynamic>>
   Future<Map<String, dynamic>> getPayment(String id) async {
     final String access_token = await this.getAccessToken();
-    return await this._restClient.get(
-          '/users/${id}?access_token=${access_token}',
-        ); //{'access_token': access_toKen}); //${id}
+    return await this
+        ._restClient
+        .get('/v1/payments/${id}', {'access_token': access_token});
   }
 }

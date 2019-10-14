@@ -1,4 +1,3 @@
-//import 'package:mercadopago_sdk/mercadopago_sdk.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'version.dart';
